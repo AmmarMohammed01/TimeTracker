@@ -1,0 +1,26 @@
+.tableContainer {
+  display: grid;
+  place-self: center;
+
+  margin-top: 50px;
+  width: 750px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+  border: none;
+  border-radius: 20px;
+}
+
+thead {
+  background-color: #ACFCD9;
+}
+
+th {
+  padding: 20px;
+}
+
+tbody {
+  background-color: white;
+}
+
+td {
+  padding: 20px;
+}

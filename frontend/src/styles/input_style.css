@@ -1,0 +1,64 @@
+.inputContainer {
+  background-color: #ACFCD9;
+  border: none; 
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+  padding: 10px 20px;
+
+  display: grid;
+  place-self: center;
+  grid-template-rows: 1fr 50px;
+  margin-top: 20px;
+}
+
+.inputForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
+
+}
+
+.inputLabelAndField {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  /* place-self: center; */
+}
+
+.inputLabel {
+  display: grid;
+  place-self: center;
+  position: relative;
+}
+
+.icon {
+  position:absolute;
+  top: -5px;
+  right: -40px;
+  bottom: 0;
+  width: 30px;
+}
+
+.inputField {
+  width: 238px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0px 4px 10px rgba(85,214,190,1);
+  outline: none;
+
+  font-family: Righteous;
+  padding: 0px 20px;
+  font-size: 20px;
+  margin: 0px 20px;
+}
+
+
+.submitButton {
+  background-color: #7400FF;
+  color: white;
+  font-family: Righteous;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
